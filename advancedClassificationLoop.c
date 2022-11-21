@@ -1,6 +1,8 @@
 #include "stdio.h"
 #include "NumClass.h"
 
+#define true 1;
+#define false 0;
 int power(int pow, int base){
     if(pow==0){
         return 1;
@@ -31,6 +33,7 @@ for(int i=0;i<tmp2/2;i++){
     }
     return 1;
 }
+
  int isArmstrong(int num){
     int tmp =0;
     int tmp2=num;
