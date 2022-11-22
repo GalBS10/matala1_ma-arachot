@@ -20,33 +20,33 @@ scanf("%d",&y);
 }
 
 
-// printing prime numbers
-printf("\n \n the Prime numbers between %d and %d are: ",x,y);
-for(int i = x; i <= y; i++){
-    if(isPrime(i)){
-        printf("%d , ",i);
-    }
-}
 
 // printing armstrong nubers
-printf("\n \n the Armstrong numbers between %d and %d are: ",x,y);
+printf("\n the Armstrong numbers are: ");
 for(int i = x; i <= y; i++){
     if(isArmstrong(i)){
         printf("%d , ",i);
     }
 }
 
-//printing strong numbers
-printf("\n \n the Strong numbers between %d and %d are: ",x,y);
+ //printing palindrome numbers
+printf("\n the Palindrome numbers are: ");
 for(int i = x; i <= y; i++){
-    if(isStrong(i)){
+    if(isPalindrome(i)){
         printf("%d , ",i);
     }
 }
- //printing palindrome numbers
-printf("\n \n the Palindrome numbers between %d and %d are: ",x,y);
+// printing prime numbers
+printf("\n the Prime numbers are: ");
 for(int i = x; i <= y; i++){
-    if(isPalindrome(i)){
+    if(isPrime(i)){
+        printf("%d , ",i);
+    }
+}
+//printing strong numbers
+printf("\n the Strong numbers are: ");
+for(int i = x; i <= y; i++){
+    if(isStrong(i)){
         printf("%d , ",i);
     }
 }
