@@ -1,4 +1,4 @@
-all: libclassloops.a libclassloops.so libclassrec.a libclassrec.so mains maindloop maindrec
+all: mains maindloop maindrec loops recursived recursives
 
 loops: advancedClassificationLoop.o basicClassification.o
 	ar rcu libclassloops.a basicClassification.o advancedClassificationLoop.o
