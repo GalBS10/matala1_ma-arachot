@@ -22,32 +22,33 @@ scanf("%d",&y);
 
 
 // printing armstrong nubers
-printf("\n the Armstrong numbers are: ");
+printf("\n 1 the Armstrong numbers are: ");
 for(int i = x; i <= y; i++){
     if(isArmstrong(i)){
-        printf("%d , ",i);
+        printf("%d ",i);
     }
 }
 
  //printing palindrome numbers
-printf("\n the Palindrome numbers are: ");
+printf("\n 2 the Palindrome numbers are: ");
 for(int i = x; i <= y; i++){
     if(isPalindrome(i)){
-        printf("%d , ",i);
+        printf("%d ",i);
     }
 }
+
 // printing prime numbers
-printf("\n the Prime numbers are: ");
+printf("\n 3 the Prime numbers are: ");
 for(int i = x; i <= y; i++){
     if(isPrime(i)){
-        printf("%d , ",i);
+        printf("%d ",i);
     }
 }
 //printing strong numbers
-printf("\n the Strong numbers are: ");
+printf("\n 4 the Strong numbers are: ");
 for(int i = x; i <= y; i++){
     if(isStrong(i)){
-        printf("%d , ",i);
+        printf("%d ",i);
     }
 }
 
