@@ -50,6 +50,6 @@ for(int i = x; i <= y; i++){
         printf("%d , ",i);
     }
 }
-return 0;
+
 }
 
