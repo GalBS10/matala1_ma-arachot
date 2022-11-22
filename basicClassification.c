@@ -13,7 +13,7 @@ int isPrime(int num){
 }
 
 int factorial(int num){
-    if(num==1){
+    if(num==1||num==0){
         return 1;
     }
     return num*(factorial(num-1));

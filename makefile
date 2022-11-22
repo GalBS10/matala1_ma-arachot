@@ -46,6 +46,6 @@ libclassrec.so: advancedClassificationLoop.o basicClassification.o
 	gcc -shared -o libclassrec.so advancedClassificationLoop.o basicClassification.o
 
 Main.o: Main.c NumClass.h 
-	gcc -Wall -g -c Main.c NumClass.h
+	gcc -Wall -g -c Main.c 
 
 
