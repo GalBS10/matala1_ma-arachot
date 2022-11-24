@@ -43,4 +43,4 @@ libclassrec.so: advancedClassificationLoop.o basicClassification.o
 	gcc -shared -o libclassrec.so advancedClassificationLoop.o basicClassification.o
 
 clean:
-	rm -f *.o *.a *.so
+	rm -f *.o *.a *.so 
